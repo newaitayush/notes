@@ -4,23 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Notes</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="app.js" href="./app.js">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <header>
-        
         <h1>Online Notes</h1>
-        
         <nav>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Sign Up</a></li>
-                <li><a href="#">Sign In</a></li>
+                <li><a href="./signup.html">Sign Up</a></li>
+                <li><a href="./login.html">Login</a></li>
             </ul>
+            <!-- Dark Mode Toggle Button -->
+            <button id="dark-mode-toggle">Toggle Dark Mode</button>
         </nav>
     </header>
-    
     <main>
         <section class="note-container">
             <h2>Your Notes</h2>
@@ -28,9 +26,10 @@
             <button class="save-btn">Save Note</button>
         </section>
     </main>
-    
     <footer>
         <p>&copy; 2024 Online Notes. All rights reserved.</p>
     </footer>
+    
+    <script src="script.js"></script>
 </body>
 </html>
